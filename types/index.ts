@@ -26,4 +26,25 @@ export interface CarProps{
     transmission:string;
     year:number;
 }
- 
+export interface FilterProps {
+    manufacturer?: string;
+    year?: number;
+    model?: string;
+    limit?: number;
+    fuel?: string;
+  }
+export interface OptionProps{
+    title:string;
+    value:string;
+}
+export interface CutomFilterProps{
+    title:string;
+    options:OptionProps;
+}
+
+
+
+
+
+
+
