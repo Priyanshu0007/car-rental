@@ -39,10 +39,16 @@ export interface OptionProps{
 }
 export interface CutomFilterProps{
     title:string;
-    options:OptionProps;
+    options:OptionProps[];
 }
-
-
+export interface ShowMoreProps {
+    pageNumber: number;
+    isNext: boolean;
+  }
+  export interface HomeProps {
+    searchParams: FilterProps;
+  }
+  
 
 
 

@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Hero = () => {
     const handleScroll=()=>{
-
+        window.scrollTo(0, 1000);
     }
   return (
     <div className='hero'>
